@@ -13,7 +13,7 @@ def projections(array, increase, startIndex, endIndex)
 end
 
 def write_file(array)
-  File.write("d06_results.db", array.join("\n"))
+  File.write("resultados.db", array.join("\n"))
 end
 
 arraySales = read_file("d06_baseSales.db")
