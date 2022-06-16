@@ -16,7 +16,7 @@ def write_file(array)
   File.write("resultados.db", array.join("\n"))
 end
 
-arraySales = read_file("d06_baseSales.db")
+arraySales = read_file("ventas.db")
 firstSemester = projections(arraySales, 1.1, 0, 5)
 secondSemester = projections(arraySales, 1.2, 6, 11)
 
